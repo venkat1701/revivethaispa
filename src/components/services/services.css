@@ -1,0 +1,21 @@
+.spa__services{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    height: fit-content;
+    padding-top: 50px;
+    flex-direction: column;
+    gap: 20px;
+    background: #eee;
+    width: 100%;
+}
+
+.spa__services-massageservice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}

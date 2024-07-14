@@ -1,0 +1,25 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+:root{
+  --font-family: 'Merriweather', sans-serif;
+  --font-normal: 'Montserrat', serif;
+  scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-highlight: #7F95D1;
+  --color-text: #0f0d14;
+  /* --color-circle: #ff4036; */
+  --color-white: #fefffe;
+  /* --color-background: #0f0d14; */
+  /* --color-tiles: #0f0d14f1; */
+  /* --color-cover: #1a1624; */
+  /* --color-gallery: #14171b; */
+  /* --color-white-form: #e6ece6; */
+}

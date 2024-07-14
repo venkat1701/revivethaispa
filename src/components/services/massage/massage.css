@@ -1,0 +1,83 @@
+.spa__massage{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 800px;
+    background: #fff;
+    transition: 0.2s;
+    border-radius: 10px;
+}
+.spa__massage-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.spa__massage-header:hover{
+    color: var(--color-highlight);
+}
+.spa__massage:hover{  
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.spa__massage:hover p{
+    color: #000;
+}
+
+.spa__massage-details img{
+    width: 400px;
+}
+
+.spa__massage-header h1{
+    font-family: var(--font-normal);
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.spa__massage-details p{
+    font-family: var(--font-normal);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.spa__massage-details-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.spa__massage-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    padding: 20px;
+}
+
+@media screen and (max-width: 830px) {
+    .spa__massage{
+        width: 500px;
+    }
+
+    .spa__massage-details {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .spa__massage{
+        width: 300px;
+    }
+
+    .spa__massage-details img{
+        width: 250px;
+    }
+}

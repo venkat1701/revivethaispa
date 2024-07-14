@@ -1,0 +1,10 @@
+export {default as Navbar} from './navbar/Navbar.jsx';
+export {default as Home} from './home/Home.jsx';
+export {default as Welcome} from './welcome/Welcome.jsx';
+export {default as Pricing} from './pricing/Pricing.jsx';
+export {default as Testimonials} from './testimonials/Testimonials.jsx';
+export {default as Heading} from './heading/Heading.jsx';
+export {default as Services} from './services/Services.jsx';
+export {default as Timings} from './timings/Timings.jsx';
+export {default as Footer} from './footer/Footer.jsx';
+export {default as Gallery} from './gallery/Gallery.jsx';

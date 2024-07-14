@@ -1,0 +1,43 @@
+.spa__welcomecard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+.spa__welcomecard img {
+    width: 300px;
+}
+
+
+.spa__welcomecard h3{
+    font-family: var(--font-family);
+    font-size: 20px;
+    letter-spacing: 1.1px;
+    font-weight: 400;
+}
+
+.spa__welcomecard p{
+    width: 300px;
+    text-align: center;
+    font-family: var(--font-normal);
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 1228px) {
+    .spa__welcomecard{
+        width: 300px;
+    }
+
+    .spa__welcomecard img{
+        width: 250px;
+    }
+
+    .spa__welcomecard p{
+        width: 200px;
+    }
+}

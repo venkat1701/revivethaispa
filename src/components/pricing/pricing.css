@@ -1,0 +1,27 @@
+.spa__pricing{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    gap: 20px;
+    padding-top: 100px;
+}
+
+.spa__pricing_info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+}
+
+@media screen and (max-width: 1120px) {
+    .spa__pricing_info{
+        flex-direction: column;
+    }
+}
+
